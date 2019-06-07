@@ -29,7 +29,7 @@ public class Solution {
 
         if(startPos > (set.size() -1)) {
 
-            if(sack.size() > 2) {
+            if(sack.size() >= 2) {
                 SackObject pop = sack.pop();
                 currentTotal -= pop.value;
                 System.out.println("Popped : " + pop);
